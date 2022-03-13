@@ -1,6 +1,8 @@
-postgres://bdqqdeasyiibje
+postgres://
+bdqqdeasyiibje
 :
-2784380a922c89601d012cc65d80cbb1f19dfbc23aeec1c083d0a569d844b363@
+2784380a922c89601d012cc65d80cbb1f19dfbc23aeec1c083d0a569d844b363
+@
 ec2-52-70-186-184.compute-1.amazonaws.com
 :
 5432

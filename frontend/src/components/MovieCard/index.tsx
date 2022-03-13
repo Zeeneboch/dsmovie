@@ -2,13 +2,12 @@ import MovieScore from "components/MovieScore";
 import { Link } from "react-router-dom";
 import { Movie } from "types/movie";
 
-export function MovieCard() {
+type Props = {
+    movie: Movie;
+}
 
-    type Props = {
-        movie: Movie;
-    }
 
-    function MovieCard( { movie }: Props) {
+function MovieCard({movie} : Props) {
         
     return (
         <div>
@@ -23,6 +22,6 @@ export function MovieCard() {
         </div>
     );
 
-}}
+}
 
 export default MovieCard;
